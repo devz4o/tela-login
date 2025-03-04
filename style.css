@@ -12,7 +12,6 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
-
 }
 
 .container {
@@ -21,7 +20,6 @@ body {
     width: 60%;
     height: 450px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-
 }
 
 form {
@@ -89,7 +87,6 @@ strong {
     padding: 17px 0px 17px 0px;
     background: rgb(245,99,99);
     background: linear-gradient(90deg, rgba(245,99,99,1) 22%, rgba(255,46,108,1) 100%, rgba(255,0,0,1) 100%);
-    
 }
 
 .user-options{
@@ -115,7 +112,6 @@ button {
     border-radius: 2rem;
     padding: 17px 0 17px 0px;
     background: transparent;
-
 }
 
 .checkbox {
@@ -126,7 +122,6 @@ button {
 span {
    color: rgba(255,46,108,1);
    font-weight: 500;
-
 }
 
 input[type="checkbox"] {
