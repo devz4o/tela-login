@@ -132,3 +132,78 @@ input[type="checkbox"] {
 .signup-btn {
     width: 100px;
 }
+
+/* MEDIA QUERY - */
+@media (max-width:883px) {
+
+
+    strong{
+        font-size: 13px;
+        font-weight: 100;
+    }
+    .welcome p {
+        font-size: 13px;
+    } 
+
+    
+    .user {
+        padding: 5px;
+        width: 100%;
+    }
+    
+    .radient-button {
+        padding: 5px;
+    }
+    
+    .user-options {
+        flex-direction: column;
+        justify-content: center;
+        font-size: 15px;
+    }
+    
+    .icons {
+        font-size: 1.1rem;
+    }
+    span {
+        text-align: center;
+        margin-right: 13px;
+    }
+}
+
+@media (max-width: 430px) {
+    h1 {
+        font-size: 17px;
+    }
+    
+    .checkbox-label {
+        margin: auto;
+    }
+    
+    .user-options {
+        gap: 10px;
+    }
+    span {
+        margin: 0;
+    }
+}
+@media (max-width:740px){
+
+.sign-in {
+    flex-direction: column;
+
+}
+
+}
+@media (max-width: 1110px) {
+    .user-options {
+        flex-direction: column;
+    }
+
+    .checkbox-label {
+        margin-right: 1rem;
+    }
+
+    .checkbox {
+        margin: 0;
+    }
+}
